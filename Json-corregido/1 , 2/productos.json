@@ -24,7 +24,7 @@
         "id": 4,
         "nombre": "Zapatillas Deportivas",
         "descripcion": "Zapatillas deportivas ligeras y cómodas para entrenamiento.",
-        "stock": 7,
+        "stock": 0,
         "precio": 49.99
     },
     {

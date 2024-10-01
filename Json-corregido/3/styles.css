@@ -38,7 +38,13 @@ button{
 }
 
 button:active{
-    background-color: rgb(78, 16, 92);
+    background-color: rgba(78, 16, 92, 0.892);
+}
+
+.error{
+    color: rgb(222, 19, 205);
+    margin-top: 5px;
+    text-align: left;
 }
 
 img{
