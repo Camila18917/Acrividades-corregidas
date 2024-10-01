@@ -27,7 +27,6 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
                 } 
             } else {
                 mensaje.textContent = 'Usuario o contraseña incorrectos';
-                mensaje.style.color = 'red';
             }
         })
 });
