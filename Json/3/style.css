@@ -1,0 +1,46 @@
+body{
+    background-image:url(https://static.vecteezy.com/system/resources/previews/011/997/862/non_2x/trendy-summer-sale-background-and-banner-design-for-doodle-geometric-background-contemporary-modern-trendy-illustrations-every-background-is-isolated-pastel-colors-free-vector.jpg);
+    background-size: cover;
+}
+
+.formulario{
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 30%;
+    padding: 4%;
+    padding-bottom: 7% ;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 10%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3{
+    font-size: 30px;
+    color: aliceblue;
+    margin-bottom: 12%;
+}
+
+input{
+    margin-top:2%;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+button{
+    margin-top: 2%;
+    background-color: rgb(251, 112, 237);
+    color: azure;
+    padding: 2%;
+    font-weight:bold;
+    width: 180px;
+    border-radius: 10px;
+}
+
+button:active{
+    background-color: rgb(78, 16, 92);
+}
+
+img{
+    width: 50%;
+}

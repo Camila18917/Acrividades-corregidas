@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "nombre": "Camiseta Básica",
+        "descripcion": "Descripción del Producto 1",
+        "stock": 10,
+        "precio": 29.99
+    },
+    {
+        "id": 2,
+        "nombre": "Jeans Ajustados",
+        "descripcion": "Jeans ajustados de mezclilla con efecto desgastado.",
+        "stock": 0,
+        "precio": 19.99
+    },
+    {
+        "id": 3,
+        "nombre": "Chaqueta de Cuero",
+        "descripcion": "Chaqueta de cuero genuino con detalles metálicos.",
+        "stock": 5,
+        "precio": 39.99
+    },
+    {
+        "id": 4,
+        "nombre": "Zapatillas Deportivas",
+        "descripcion": "Zapatillas deportivas ligeras y cómodas para entrenamiento.",
+        "stock": 7,
+        "precio": 49.99
+    },
+    {
+        "id": 5,
+        "nombre": "Reloj Inteligente",
+        "descripcion": "Reloj inteligente con monitoreo de salud y notificaciones.",
+        "stock": 0,
+        "precio": 9.99
+    },
+    {
+        "id": 6,
+        "nombre": "Gafas de Sol",
+        "descripcion": "Gafas de sol con protección UV y diseño moderno.",
+        "stock": 11,
+        "precio": 8.99
+    },
+    {
+        "id": 7,
+        "nombre": "Auriculares Bluetooth",
+        "descripcion": "Auriculares Bluetooth con cancelación de ruido.",
+        "stock": 0,
+        "precio": 40.99
+    },
+    {
+        "id": 8,
+        "nombre": "Bolso de Mano",
+        "descripcion": "Bolso de mano elegante con compartimentos múltiples.",
+        "stock": 2,
+        "precio": 39.99
+    },
+    {
+        "id": 9,
+        "nombre": "Cargador Inalámbrico",
+        "descripcion": "Cargador inalámbrico rápido compatible con la mayoría de dispositivos.",
+        "stock": 12,
+        "precio": 25.99
+    },
+    {
+        "id": 10,
+        "nombre": "Lámpara de Escritorio",
+        "descripcion": "Lámpara de escritorio con ajuste de brillo y color de luz.",
+        "stock": 0,
+        "precio": 38.99
+    }
+]

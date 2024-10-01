@@ -1,0 +1,39 @@
+body{
+    background-color: rgba(19, 155, 155, 0.596);
+}
+
+.bienvenida{
+    background-color: rgba(255, 255, 255, 0.938);
+    margin:auto;
+    margin-top: 8%;
+    width: 90%;
+    height: 40rem;
+}
+
+h3{ 
+    text-align: center;
+    padding: 5%;
+}
+
+.img2{
+    width: 30%;
+    float: left;
+    clear: both;
+    padding: 2%;
+}
+
+form{
+    margin-left: 10%;
+}
+
+input{
+    margin-top: 2%;
+}
+
+button{
+    font-size:90%;
+    background-color:rgb(224, 186, 157);
+    border-radius: 8%;
+    border-color:white;
+    padding: 1%;
+}

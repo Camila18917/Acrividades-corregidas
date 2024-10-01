@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bienvenida </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="bienvenida"> 
+    <h3> ¡BIENVENIDO! </h3>
+    <img class="img2" src="https://media3.giphy.com/media/s07EVm24Dam7D9zMaD/200.gif?cid=6c09b952s8pi4puk1fv15rz9kthckrqmxe1z1sxyypxh5jp3&ep=v1_internal_gif_by_id&rid=200.gif&ct=g" alt="oveja saltando">
+    <form id="miFormulario" action="../3/home2.html" >
+      <h4> Vamos a hacer un par de preguntas para saber sobre ti </h4>
+      <label>
+        <input type="checkbox" id="tilde" onclick="mecuesta()"> ¿Te cuesta dormir? ^^
+      </label>
+      <div id="opcion" style="display:none">
+        <label for="numero">¿Cuantas ovejas contas antes de dormir?</label>
+        <input type="number" id="numero" name="numero" min="30" max="50" required><br><br>
+        <button type="submit"> Siguiente </button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>

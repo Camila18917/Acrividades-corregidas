@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Bienvenida </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+  <div class="bienvenida"> 
+    <h3> ¡BIENVENIDO! </h3>
+    <img class="img2" src="https://media3.giphy.com/media/s07EVm24Dam7D9zMaD/200.gif?cid=6c09b952s8pi4puk1fv15rz9kthckrqmxe1z1sxyypxh5jp3&ep=v1_internal_gif_by_id&rid=200.gif&ct=g" alt="oveja saltando">
+    <form id="miFormulario">
+      <h4> Con nuestros consejos... </h4>
+      <p>¿ Cuanto tiempo podras dormir bien?</p>
+      <div>
+        <label for="empiezo"> Empiezo mi descanso el </label>
+        <input type="date" type="date" min="2024-09-11" max="2024-12-31" id="empiezo"   >
+      </div>
+      <div>
+        <label for="termino"> Termino el </label>
+        <input type="date" type="date" min="2024-09-12" max="2024-12-31" id="termino">
+      </div><br>
+      <button onclick="comprobarFecha()">Comprobar</button>   
+    </form>
+  </div>
+</body>
+</html>

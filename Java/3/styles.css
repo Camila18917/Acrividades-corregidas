@@ -1,0 +1,72 @@
+body{
+    background-color:bisque;
+}
+
+p{
+    padding: 0.01%;
+    margin: 5%;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.fondot{
+    background-image: url("https://www.infobae.com/new-resizer/7zbYEoigtWEq0G2dkJrrG1WqgKU=/768x432/filters:format(webp):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/WQFJQPO5HRBFFHSURP3YBUI3VU.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+}
+
+.contenido{
+    width: 70%;
+    margin:auto;
+    background-color: rgb(248, 248, 248);
+    text-align: justify;
+}
+
+h1{
+    text-align: center;
+    padding: 8%;
+    background: rgba(13, 12, 12, 0.897);
+    pointer-events: none; 
+    z-index: 1;
+    color: #fff;
+}
+
+.cookies {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.aviso {
+    background-color:#1c1d1e;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.aviso h2 {
+    margin-top: 0;
+}
+
+.aviso button {
+    padding: 4%;
+    background-color:white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.aviso button:hover {
+    background-color: #010101;
+    color: rgb(248, 248, 248);
+}
+

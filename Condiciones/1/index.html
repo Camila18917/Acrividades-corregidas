@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Inicio de Sesion </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Formulario" >
+        <form id="miFormulario" onsubmit="return validarFormulario()" >
+            <label for="text"> Usuario </label><br>
+            <input type="text" id="usuario" name="usuario" required>
+            <br><br>
+
+            <label for="contraseña">Contraseña</label><br>
+            <input type="password" id="contraseña" name="contraseña" minlength="1" maxlength="6" required>
+            <br><br>
+
+            <label for="mensaje">Mensaje </label><br>
+            <input type="text" id="mensaje" name="mensaje" minlength="5" maxlength="30" required>
+            <br><br>
+    
+            <label>
+            <input type="checkbox" id="aceptar" name="aceptar"> Acepto los términos y condiciones
+            </label>
+            <div id="checkboxError" class="error"></div>
+            <br>
+    
+            <button type="submit">Enviar</button>
+    </form>
+    <script src="script.js"></script>
+    <img class="img" src="https://png.pngtree.com/png-clipart/20230917/original/pngtree-svg-logo-of-an-icon-of-sheep-vector-png-image_12296175.png" alt="imagen oveja">
+    </div>
+</body>
+</html>
