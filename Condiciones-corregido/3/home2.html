@@ -13,15 +13,12 @@
     <img class="img2" src="https://media3.giphy.com/media/s07EVm24Dam7D9zMaD/200.gif?cid=6c09b952s8pi4puk1fv15rz9kthckrqmxe1z1sxyypxh5jp3&ep=v1_internal_gif_by_id&rid=200.gif&ct=g" alt="oveja saltando">
     <form id="miFormulario">
       <h4> Con nuestros consejos... </h4>
-      <p>¿ Cuanto tiempo podras dormir bien?</p>
+      <p>¿ Cuanto te gustaria comenzar el tretemiento ?</p><br>
       <div>
         <label for="empiezo"> Empiezo mi descanso el </label>
-        <input type="date" type="date" min="2024-09-11" max="2024-12-31" id="empiezo"   >
-      </div>
-      <div>
-        <label for="termino"> Termino el </label>
-        <input type="date" type="date" min="2024-09-12" max="2024-12-31" id="termino">
-      </div><br>
+        <input type="date" type="date" id="fecha">
+        <div id="resultado"></div><br>
+
       <button onclick="comprobarFecha()">Comprobar</button>   
     </form>
   </div>
