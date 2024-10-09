@@ -1,5 +1,5 @@
 [
-    { "usuario": "gaby2405", "contrasena": "12345a", "rol": "admin" },
+    { "usuario": "gaby24", "contrasena": "12345a", "rol": "admin" },
     { "usuario": "sofi23", "contrasena": "12345u", "rol": "usuario" },
     { "usuario": "cam18", "contrasena": "12345c", "rol": "creador" }
   ]

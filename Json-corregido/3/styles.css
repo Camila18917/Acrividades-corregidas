@@ -49,4 +49,18 @@ button:active{
 
 img{
     width: 50%;
+    margin-bottom: 6%;
+}
+
+.cerrar{
+    text-decoration: none;
+    color:black;
+    padding: 2%;
+    background-color: rgb(251, 112, 237);
+    border-radius: 10px;
+}
+
+.cerrar:hover{
+    background-color: rgb(121, 48, 113);
+    color: white;
 }
